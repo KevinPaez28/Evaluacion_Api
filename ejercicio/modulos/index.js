@@ -8,3 +8,6 @@ export { getCommets } from "./commets.js";
 export { getalbumes } from "./galeria.js";
 // Exporta la función getphotos desde el archivo "photos.js"
 export { getphotos } from "./photos.js";
+
+export { getTareas } from "./pendientes.js";
+

@@ -48,7 +48,7 @@ const manejardatos = async () => {
   
 
 };
-// Llamamos a la función manejardatos(), que devuelve una promesa
+// Llamamos a la función manejardatos, que devuelve una promesa
 manejardatos().then((data) => {
       // Cuando la promesa se resuelve, "data" contiene la información procesada
     console.log(data);//muestra datos en consola 
