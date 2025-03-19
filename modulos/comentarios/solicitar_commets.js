@@ -1,6 +1,6 @@
 import solicitud from "../helpers/solicitud.js";
-// Función asincrona para obtener los comentarios de un post específico desde la API
+
 export const getCommets = async (URL) => {
-  // Llama a la función "solicitud" pasando la URL con el ID del post
+  // Llama a la función "solicitud" y se le concatena con la ruta que se desea para obtener los datos
   return  await solicitud(`${URL}/comments`)
 }

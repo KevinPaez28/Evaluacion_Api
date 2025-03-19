@@ -1,2 +1,2 @@
-export { getPost } from "./Solicitar_post_user.js";
-export {getPostarray} from "./solicitar_post.js"
+export { getPost } from "./Solicitar_post_user.js";//exportamos la funcion getPost desde Solicitar_post_user.js
+export {getPostarray} from "./solicitar_post.js"//exportamos la funcion getPostarray desde solicitar_post.js

@@ -1,2 +1,2 @@
-export { getphotosid } from "./solicitar_photos_albums.js";
-export { getphotos } from "./solicitar_photos.js";
+export { getphotosid } from "./solicitar_photos_albums.js";//exportamos la funcion getphotosid desde solicitar_photos_albums.js
+export { getphotos } from "./solicitar_photos.js";//exportamos la funcion getphotos desde solicitar_photos.js
