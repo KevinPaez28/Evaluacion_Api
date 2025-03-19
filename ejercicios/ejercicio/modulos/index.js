@@ -11,3 +11,5 @@ export { getphotos } from "./photos.js";
 
 export { getTareas } from "./pendientes.js";
 
+export { getPostarray } from "./posts.js";
+

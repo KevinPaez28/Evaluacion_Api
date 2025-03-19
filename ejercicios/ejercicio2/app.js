@@ -5,9 +5,7 @@ const URL = "https://jsonplaceholder.typicode.com";
 const nombreUsuario=prompt("Ingrese el usuario que desea buscar")
 
 
-let usuario = getUsuarios(URL)//obtenemos los datos de los usuarios
 
-let photos = getphotos(URL, usuario) ///obtenemos los datos de las tareas
 
 const albumesUsu = async () => {
 

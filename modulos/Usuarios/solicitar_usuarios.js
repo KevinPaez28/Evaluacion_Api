@@ -1,5 +1,5 @@
 //importamos la funcion solicitud para obtener los usuarios
-import solicitud from "./solicitud.js"; 
+import solicitud from "../helpers/solicitud.js";
 //
 export  const getUsuarios=async(URL,id)=>{
     let ruta=""; // variable para almacenar la ruta api
